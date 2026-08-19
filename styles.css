@@ -1,0 +1,59 @@
+:root {
+  --brand: #4c64ff;
+  --ink: #1b2439;
+  --paper: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e6e9f2;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--brand);
+}
+
+.site-header nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #a8b2c8;
+}
+
+main {
+  max-width: 40rem;
+  padding: 2rem;
+}
+
+.status {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.status--ok { color: #1c7a4d; }
+
+.updated {
+  color: #5a6785;
+  font-size: 0.9rem;
+}
+
+.incidents {
+  list-style: none;
+  padding: 0;
+}
+
+.incidents li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e6e9f2;
+}
